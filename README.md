@@ -1,6 +1,6 @@
 # Link demo: [FullCalendar](https://full-calendar-fe.web.app/).
 '''bash
-![Alt text](blob:https://chat.zalo.me/b256b8e5-e799-4082-ba77-612c8c10f535)
+![Image Demo](https://drive.google.com/file/d/1vd_Ocrx_m-xAAD3yfEKjmICzMDQz4K9n/view?usp=drive_link)
 
 '''
 # Getting Started with Create React App
