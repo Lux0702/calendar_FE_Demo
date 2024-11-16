@@ -1,6 +1,6 @@
 # Link demo: [FullCalendar](https://full-calendar-fe.web.app/).
 
-![Image Demo](https://drive.google.com/file/d/1vd_Ocrx_m-xAAD3yfEKjmICzMDQz4K9n/view?usp=drive_link)
+![Image Demo](https://drive.google.com/file/d/1vd_Ocrx_m-xAAD3yfEKjmICzMDQz4K9n/view?usp=sharing)
 
 
 # Getting Started with Create React App
