@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.fullcalendar-bg-white .fc-theme-standard {
+    background-color: white;
+  }
+.fc .fc-toolbar-title{
+    color:darkblue;
+    font-weight:bold;
+    margin-right: 170px;
+}
+.fc .fc-toolbar.fc-header-toolbar{
+    padding: 20px;
+}
+.fc .fc-button-primary:disabled {
+    background-color: white;
+    border-color: darkblue;
+    color: darkblue;
+    border-radius:15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 70px;
+}
+.fc .fc-button:not(:disabled) {
+    cursor: pointer;
+    background-color: white;
+    border-color: darkblue;
+    color:darkblue;
+    border-radius:15px;
+}
+
+.fc .fc-button .fc-icon{
+    color: darkblue;
+    border: none;
+}
+.fc .fc-button .fc-icon::before::after{
+    color: darkblue;
+    border: none;
+    background-color: white;
+}
+.fc .fc-prev-button,.fc-next-button{
+    border: none !important;
+}
+
+.fc .fc-bg-event{
+    background-color: #E4F6ED;
+}
+/* Lớp CSS cho Webinar */
+.webinar-event {
+    background-color: #FFE4C8;
+    border: 6px solid #0F4C81;
+    border-radius: 8px;
+    color: #0F4C81;
+  }
+  
+  /* Lớp CSS cho Meeting */
+  .meeting-event {
+    background-color: #F9BE81;
+    border: 6px solid #5684AE;
+    border-radius: 8px;
+    color: #5684AE;
+  }
+.fc .fc-daygrid-day-top{
+    flex-direction: column;
+    text-align: center;
+} 
+
+.non-webinar {
+    border: solid #5684ae;
+    border-width: 0 0 0 10px;
+    background-color: #f9be81;
+    color: #5684ae;
+    margin-bottom: 20px;
+  }
+  
+.webinar {
+    border: solid #f9be81;
+    border-width: 0 0 0 10px;
+    background-color: #5684ae;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .fc .fc-button-primary:not(:disabled).fc-button-active, .fc .fc-button-primary:not(:disabled):active {
+    background-color: #0F4C81;
+    border-color: none;
+}

@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+.parent {
+  display: grid;
+  grid-template-columns: 40% 60%; 
+  grid-template-rows: auto; 
+  gap: 10px;
+}
+  
+.div1 {
+  grid-column: 1; 
+  grid-row: 1; 
+  background-color: #ffffff;
+}
+
+.div6 {
+  grid-column: 2; 
+  grid-row: 1; 
+  background-color: #f0f0f0; 
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.sx-react-calendar-wrapper {
+  width: 1200px;
+  max-width: 100vw;
+  height: 800px;
+  max-height: 90vh;
+}
+.sx-header-date { 
+  display: none;
+}
+.sx__date-picker-wrapper{
+  display: none;
+}
+.p-datepicker table td > span.p-highlight {
+  color: darkgray;
+  background: #5684AE;
+}
+.p-datepicker-header{
+  width: 250px;
+  color: darkblue;
+  font-weight: bold;
+}
+.p-datepicker-group{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+:root {
+  --primary-color: #5684AE;
+  --secondary-color: #F5F5F5;
+  --text-color: #333;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

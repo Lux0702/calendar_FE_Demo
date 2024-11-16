@@ -1,0 +1,52 @@
+{
+    "month": "April 2021",
+    "events": [
+      {
+        "id": 1,
+        "title": "First Session with Alex Stan",
+        "date": "2021-04-04",
+        "time": "09:00 - 09:30",
+        "timezone": "GMT+8",
+        "type": "Appointment",
+        "color": "#5684AE",
+        "details": "View Client Profile",
+        "url": "https://dummyurl.com/client-profile"
+      },
+      {
+        "id": 2,
+        "title": "Webinar: How to cope with trauma in professional life",
+        "date": "2021-04-05",
+        "time": "09:00 - 09:30",
+        "timezone": "GMT+8",
+        "type": "Event",
+        "color": "#F9BE81",
+        "details": "View Webinar",
+        "url": "https://eventbrite.sg/sample-event"
+      },
+      {
+        "id": 3,
+        "title": "Chemistry Session",
+        "date": "2021-04-17",
+        "time": "10:00 - 11:00",
+        "timezone": "GMT+8",
+        "type": "Appointment",
+        "color": "#5684AE",
+        "details": "View Client Profile",
+        "url": "https://dummyurl.com/client-profile"
+      }
+    ],
+    "recurring_events": [
+      {
+        "id": 4,
+        "title": "Weekly Check-in with Team",
+        "start_date": "2021-04-01",
+        "time": "10:00 - 10:30",
+        "timezone": "GMT+8",
+        "frequency": "weekly",
+        "color": "#0F4C81",
+        "details": "Weekly team updates",
+        "url": "https://dummyurl.com/team-checkin"
+      }
+    ]
+  }
+  
