@@ -1,8 +1,8 @@
 # Link demo: [FullCalendar](https://full-calendar-fe.web.app/).
-'''bash
+
 ![Image Demo](https://drive.google.com/file/d/1vd_Ocrx_m-xAAD3yfEKjmICzMDQz4K9n/view?usp=drive_link)
 
-'''
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
